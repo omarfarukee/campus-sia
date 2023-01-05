@@ -18,7 +18,7 @@ function App() {
         <Principle></Principle>
         <Faq></Faq>
         
-        <About></About>
+        {/* <About></About> */}
         <Footer></Footer>
     </div>
   );

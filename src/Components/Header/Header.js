@@ -5,7 +5,7 @@ const Header = () => {
     const [navber, setNavber] = useState(false)
 
     const changeBackground = () => {
-        if(window.scrollY >= 80){
+        if(window.scrollY >= 200){
             setNavber(true)
         }
         else{
@@ -21,11 +21,11 @@ const Header = () => {
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
-                        <li className={navber ? 'text-black font-bold' : 'text-white font-bold'}><a className=' mr-2 menu'>Home</a></li>
-                        <li className={navber ? 'text-black font-bold' : 'text-white font-bold'}><a className=' mr-2 menu'>Our goal</a></li>
-                        <li className={navber ? 'text-black font-bold' : 'text-white font-bold'}><a className=' mr-2 menu'>FAQ</a></li>
-                        <li className={navber ? 'text-black font-bold' : 'text-white font-bold'}><a className=' mr-2 menu'>About</a></li>
-                        <li className={navber ? 'text-black font-bold' : 'text-white font-bold'}><a className=' mr-2 menu'>contact</a></li>
+                        <li className={navber ? 'text-black font-bold' : 'text-white font-bold'}><a className=' mr-2 menu' href='#home'>Home</a></li>
+                        <li className={navber ? 'text-black font-bold' : 'text-white font-bold'}><a className=' mr-2 menu' href='#goal'>Our goal</a></li>
+                        <li className={navber ? 'text-black font-bold' : 'text-white font-bold'}><a className=' mr-2 menu' href='#advantage'>Precedence</a></li>
+                        <li className={navber ? 'text-black font-bold' : 'text-white font-bold'}><a className=' mr-2 menu' href='#advice'>Advice</a></li>
+                        <li className={navber ? 'text-black font-bold' : 'text-white font-bold'}><a className=' mr-2 menu' href='#contact'>contact</a></li>
                     </ul>
                 </div>
             </div>

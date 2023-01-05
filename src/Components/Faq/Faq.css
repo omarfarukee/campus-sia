@@ -1,7 +1,8 @@
 .pic{
     border-radius: 50%;
     width:150px;
-    position: relative;
+    /* position: relative; */
     top:40px;
-    left:75px
+    left:75px;
+    margin-left:70px;
 }

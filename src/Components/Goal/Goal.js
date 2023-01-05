@@ -2,7 +2,7 @@ import React from 'react';
 import { FaUserClock, FaUserCog, FaUserGraduate } from 'react-icons/fa';
 const Goal = () => {
     return (
-        <div className='mt-10'>
+        <div className='mt-10' id='goal'>
             <div className='flex justify-center items-center text-center'>
                 <div>
                     <h1 className='text-3xl font-bold'>Our Goal</h1>
@@ -11,9 +11,9 @@ const Goal = () => {
 
             </div>
             <div className='flex justify-center'>
-                  <div className='w-10/12 mt-5 grid grid-cols-3'>
+                  <div className='gap-8 mt-5 grid grid-cols-3'>
 
-                <div className='w-80 border p-4 rounded-2xl shadow-2xl'>
+                <div className='w-80 border p-4 rounded-2xl shadow-2xl hover:bg-gray-300'>
                     <FaUserCog className='text-6xl'></FaUserCog>
                     <div>
                         <h1 className='text-2xl font-bold'>Understanding</h1>
@@ -21,7 +21,7 @@ const Goal = () => {
                     </div>
                 </div>
 
-                <div className='w-80 border p-4 rounded-2xl shadow-2xl'>
+                <div className='w-80 border p-4 rounded-2xl shadow-2xl hover:bg-orange-100'>
                     <FaUserClock className='text-6xl'></FaUserClock>
                     <div>
                         <h1 className='text-2xl font-bold'>Time management</h1>
@@ -29,7 +29,7 @@ const Goal = () => {
                     </div>
                 </div>
 
-                <div className='w-80 border p-4 rounded-2xl shadow-2xl'>
+                <div className='w-80 border p-4 rounded-2xl shadow-2xl hover:bg-rose-200'>
                     <FaUserGraduate className='text-6xl'></FaUserGraduate>
                     <div>
                         <h1 className='text-2xl font-bold'>Path to success</h1>

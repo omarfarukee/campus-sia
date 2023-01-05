@@ -1,0 +1,15 @@
+.homes{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../../images/pexels-pixabay-267885.jpg);
+}
+.nav-ber{
+    background-color: transparent ;
+    position: fixed;
+}
+.nav-ber.active{
+    background:paleturquoise;
+    color:black;
+}
